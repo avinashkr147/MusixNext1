@@ -1,5 +1,5 @@
 "use client";
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
+import { CardBody, CardContainer, CardItem } from "@/app/components/ui/3d-card";
 import { div, h1 } from 'motion/react-client';
 import React from 'react'
 import courseData from "@/data/music_courses.json"
