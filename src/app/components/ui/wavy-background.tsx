@@ -15,7 +15,7 @@ export const WavyBackground = ({
   waveOpacity = 0.5,
   ...props
 }: {
-  children?: any;
+  children?: string;
   className?: string;
   containerClassName?: string;
   colors?: string[];
@@ -23,8 +23,8 @@ export const WavyBackground = ({
   backgroundFill?: string;
   blur?: number;
   speed?: "slow" | "fast";
-  waveOpacity?: number;
-  [key: string]: any;
+  waveOpacity?: any| number;
+  [key: string]:  any | number;
 }) => {
   const noise = createNoise3D();
   let w: number,
@@ -32,8 +32,8 @@ export const WavyBackground = ({
     nt: number,
     i: number,
     x: number,
-    ctx: any,
-    canvas: any;
+    ctx: CanvasRenderingContext2D,
+    canvas: HTMLCanvasElement | null;
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const getSpeed = () => {
     switch (speed) {

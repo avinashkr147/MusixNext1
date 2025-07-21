@@ -1,9 +1,6 @@
-import { button, div } from "motion/react-client";
 import Link from "next/link";
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
-
-
 
 const HeroSection = () => {
   return (
@@ -27,11 +24,13 @@ const HeroSection = () => {
         </p>
         <div className="mt-5">
           <Link href={"/courses"}>
-           <button type='button' 
-           className='py-4.5 z-19 px-6 text-sm rounded-full border border-solid border-gray-200 text-gray-600 cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 hover:bg-gray-300 hover:text-gray-800'>
-           Explore courses
+            <button
+              type="button"
+              className="py-4.5 z-19 px-6 text-sm rounded-full border border-solid border-gray-200 text-gray-600 cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 hover:bg-gray-300 hover:text-gray-800"
+            >
+              Explore courses
             </button>
-      </Link> 
+          </Link>
         </div>
       </div>
     </div>

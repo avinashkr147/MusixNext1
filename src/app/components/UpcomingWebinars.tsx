@@ -6,7 +6,7 @@ function UpcomingWebinars() {
 
   const featuredWebinars = [
     {
-      Id: 1,
+      id: 1,
       title: 'Understanding Music Theory',
       description:
         'Dive deep into the fundamentals of music theory and enhance your musical skills.',
@@ -14,7 +14,7 @@ function UpcomingWebinars() {
       isFeatured: true,
     },
     {
-      Id:2,
+      id:2,
       title: 'The Art of Songwriting',
       description:
         'Learn the craft of songwriting from experienced musicians and songwriters.',
@@ -30,7 +30,7 @@ function UpcomingWebinars() {
       isFeatured: true,
     },
     {
-      Id:4,
+      id:4,
       title: 'Music Production Essentials',
       description:
         'Get started with music production with this comprehensive overview.',
@@ -66,11 +66,12 @@ function UpcomingWebinars() {
 
         <div className="mt-5"> 
   <div className=" px-2 gap-10 sm:gap-4 sm:p-4 flex flex-col items-center text-center flex-grow  w-full  mx-auto ">
-       <HoverEffect
+       <HoverEffect key={Math.random()}
        className="h-full  w-full"
           items={featuredWebinars.map(webinar => (
             {
-              id:webinar.Id,
+              
+              id:webinar.id,
               title: webinar.title,
               description: webinar.description,
               link: '/'

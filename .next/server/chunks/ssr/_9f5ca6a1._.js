@@ -99,7 +99,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$
 ;
 ;
 const FeatureCourses = ()=>{
-    let featuredCourses = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$music_courses$2e$json__$28$json$29$__["default"].courses.filter((course)=>course.isFeatured);
+    const featuredCourses = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$music_courses$2e$json__$28$json$29$__["default"].courses.filter((course)=>course.isFeatured);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "py-12  bg-gray-900",
         children: [
@@ -111,7 +111,7 @@ const FeatureCourses = ()=>{
                         children: "FEATURED COURSES"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                        lineNumber: 25,
+                        lineNumber: 24,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -119,13 +119,13 @@ const FeatureCourses = ()=>{
                         children: "Learn With the Best"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                        lineNumber: 28,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                lineNumber: 24,
+                lineNumber: 23,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -145,7 +145,7 @@ const FeatureCourses = ()=>{
                                             children: course.title
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 37,
                                             columnNumber: 21
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -153,7 +153,7 @@ const FeatureCourses = ()=>{
                                             children: course.description
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                                            lineNumber: 42,
+                                            lineNumber: 41,
                                             columnNumber: 23
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -162,33 +162,33 @@ const FeatureCourses = ()=>{
                                             children: "Learn More"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                                            lineNumber: 44,
+                                            lineNumber: 43,
                                             columnNumber: 27
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 36,
                                     columnNumber: 17
                                 }, ("TURBOPACK compile-time value", void 0))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                                lineNumber: 36,
+                                lineNumber: 35,
                                 columnNumber: 15
                             }, ("TURBOPACK compile-time value", void 0))
                         }, course.id, false, {
                             fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                            lineNumber: 35,
+                            lineNumber: 34,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0)))
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                    lineNumber: 33,
+                    lineNumber: 32,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                lineNumber: 32,
+                lineNumber: 31,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -199,18 +199,18 @@ const FeatureCourses = ()=>{
                     children: "View All courses"
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                    lineNumber: 56,
+                    lineNumber: 55,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             }, void 0, false, {
                 fileName: "[project]/src/app/components/FeatureCourses.tsx",
-                lineNumber: 55,
+                lineNumber: 54,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/FeatureCourses.tsx",
-        lineNumber: 23,
+        lineNumber: 22,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -806,7 +806,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const HoverEffect = ({ items, className })=>{
-    let [hoveredIndex, setHoveredIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [hoveredIndex, setHoveredIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-8", className),
         children: items.map((item, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -940,14 +940,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$
 function UpcomingWebinars() {
     const featuredWebinars = [
         {
-            Id: 1,
+            id: 1,
             title: 'Understanding Music Theory',
             description: 'Dive deep into the fundamentals of music theory and enhance your musical skills.',
             slug: 'understanding-music-theory',
             isFeatured: true
         },
         {
-            Id: 2,
+            id: 2,
             title: 'The Art of Songwriting',
             description: 'Learn the craft of songwriting from experienced musicians and songwriters.',
             slug: 'the-art-of-songwriting',
@@ -961,7 +961,7 @@ function UpcomingWebinars() {
             isFeatured: true
         },
         {
-            Id: 4,
+            id: 4,
             title: 'Music Production Essentials',
             description: 'Get started with music production with this comprehensive overview.',
             slug: 'music-production-essentials',
@@ -1020,12 +1020,12 @@ function UpcomingWebinars() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$ui$2f$card$2d$hover$2d$effect$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["HoverEffect"], {
                             className: "h-full  w-full",
                             items: featuredWebinars.map((webinar)=>({
-                                    id: webinar.Id,
+                                    id: webinar.id,
                                     title: webinar.title,
                                     description: webinar.description,
                                     link: '/'
                                 }))
-                        }, void 0, false, {
+                        }, Math.random(), false, {
                             fileName: "[project]/src/app/components/UpcomingWebinars.tsx",
                             lineNumber: 69,
                             columnNumber: 8
@@ -1048,12 +1048,12 @@ function UpcomingWebinars() {
                         children: "View All webinars"
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/UpcomingWebinars.tsx",
-                        lineNumber: 85,
+                        lineNumber: 86,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/UpcomingWebinars.tsx",
-                    lineNumber: 84,
+                    lineNumber: 85,
                     columnNumber: 9
                 }, this)
             ]

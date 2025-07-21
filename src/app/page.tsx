@@ -5,7 +5,6 @@ import Instructors from "./components/Instructors";
 import TestomonialCards from "./components/TestomonialCards";
 import UpcomingWebinars from "./components/UpcomingWebinars";
 import WhyChooseUs from "./components/WhyChooseUs";
-import { main } from "motion/react-client";
 
 
 export default function Home() {

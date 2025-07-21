@@ -2,7 +2,7 @@
 import React, { FormEvent, useState } from 'react';
  import {Meteors} from "@/app/components/ui/meteors"
 
-const page = () => {
+const Page = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
@@ -63,4 +63,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

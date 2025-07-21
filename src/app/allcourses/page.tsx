@@ -1,6 +1,5 @@
 "use client";
 import { CardBody, CardContainer, CardItem } from "@/app/components/ui/3d-card";
-import { div, h1 } from 'motion/react-client';
 import React from 'react'
 import courseData from "@/data/music_courses.json"
 
@@ -21,8 +20,8 @@ const page = () => {
     <div className="min-h-screen bg-black py-12 px-4 pt-36">
         <h3 className="text-center text-4xl mt-5 text-gray-400 font-bold">All Courses ({courseData.courses.length})</h3>
       <div className="grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-x-2  justify-center   mt-10">
-          {courseData.courses.map((course:Course)=>(
-         <CardContainer className="inter-var">
+          {courseData.courses.map((course:Course,id)=>(
+         <CardContainer key={id} className="inter-var">
       <CardBody   className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-8 border   ">
         <CardItem  
           translateZ="50"

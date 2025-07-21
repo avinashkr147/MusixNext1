@@ -146,12 +146,12 @@ const page = ()=>{
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/allcourses/page.tsx",
-                lineNumber: 22,
+                lineNumber: 21,
                 columnNumber: 9
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "grid  grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-x-2  justify-center   mt-10",
-                children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$music_courses$2e$json__$28$json$29$__["default"].courses.map((course)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$ui$2f$3d$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContainer"], {
+                children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$music_courses$2e$json__$28$json$29$__["default"].courses.map((course, id)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$ui$2f$3d$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardContainer"], {
                         className: "inter-var",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$ui$2f$3d$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardBody"], {
                             className: "bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-8 border   ",
@@ -162,7 +162,7 @@ const page = ()=>{
                                     children: course.title
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/allcourses/page.tsx",
-                                    lineNumber: 27,
+                                    lineNumber: 26,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$ui$2f$3d$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardItem"], {
@@ -172,7 +172,7 @@ const page = ()=>{
                                     children: course.description
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/allcourses/page.tsx",
-                                    lineNumber: 33,
+                                    lineNumber: 32,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$ui$2f$3d$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardItem"], {
@@ -184,7 +184,7 @@ const page = ()=>{
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/allcourses/page.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 39,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -199,7 +199,7 @@ const page = ()=>{
                                             children: course.slug
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/allcourses/page.tsx",
-                                            lineNumber: 44,
+                                            lineNumber: 43,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$components$2f$ui$2f$3d$2d$card$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CardItem"], {
@@ -209,35 +209,35 @@ const page = ()=>{
                                             children: course.price
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/allcourses/page.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 52,
                                             columnNumber: 11
                                         }, ("TURBOPACK compile-time value", void 0))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/allcourses/page.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 42,
                                     columnNumber: 9
                                 }, ("TURBOPACK compile-time value", void 0))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/allcourses/page.tsx",
-                            lineNumber: 26,
+                            lineNumber: 25,
                             columnNumber: 7
                         }, ("TURBOPACK compile-time value", void 0))
-                    }, void 0, false, {
+                    }, id, false, {
                         fileName: "[project]/src/app/allcourses/page.tsx",
-                        lineNumber: 25,
+                        lineNumber: 24,
                         columnNumber: 10
                     }, ("TURBOPACK compile-time value", void 0)))
             }, void 0, false, {
                 fileName: "[project]/src/app/allcourses/page.tsx",
-                lineNumber: 23,
+                lineNumber: 22,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/allcourses/page.tsx",
-        lineNumber: 21,
+        lineNumber: 20,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
