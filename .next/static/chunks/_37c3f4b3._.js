@@ -295,7 +295,7 @@ const WavyBackground = (param)=>{
             ctx.lineWidth = waveWidth || 50;
             ctx.strokeStyle = waveColors[i % waveColors.length];
             for(x = 0; x < w; x += 5){
-                var y = noise(x / 800, 0.3 * i, nt) * 100;
+                const y = noise(x / 800, 0.3 * i, nt) * 100;
                 ctx.lineTo(x, y + h * 0.5); // adjust for height, currently at 50% of the container
             }
             ctx.stroke();
@@ -319,7 +319,7 @@ const WavyBackground = (param)=>{
                 }
             })["WavyBackground.useEffect"];
         }
-    }["WavyBackground.useEffect"], []);
+    }["WavyBackground.useEffect"]);
     const [isSafari, setIsSafari] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "WavyBackground.useEffect": ()=>{
@@ -341,7 +341,7 @@ const WavyBackground = (param)=>{
                 }
             }, void 0, false, {
                 fileName: "[project]/src/app/components/ui/wavy-background.tsx",
-                lineNumber: 119,
+                lineNumber: 118,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -350,13 +350,13 @@ const WavyBackground = (param)=>{
                 children: children
             }, void 0, false, {
                 fileName: "[project]/src/app/components/ui/wavy-background.tsx",
-                lineNumber: 127,
+                lineNumber: 126,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/components/ui/wavy-background.tsx",
-        lineNumber: 113,
+        lineNumber: 112,
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };

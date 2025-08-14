@@ -453,17 +453,17 @@ const HeroSection = ()=>{
                             children: "Explore courses"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/HeroSection.tsx",
-                            lineNumber: 27,
+                            lineNumber: 25,
                             columnNumber: 13
                         }, ("TURBOPACK compile-time value", void 0))
                     }, void 0, false, {
                         fileName: "[project]/src/app/components/HeroSection.tsx",
-                        lineNumber: 26,
+                        lineNumber: 24,
                         columnNumber: 11
                     }, ("TURBOPACK compile-time value", void 0))
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/HeroSection.tsx",
-                    lineNumber: 25,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, ("TURBOPACK compile-time value", void 0))
             ]
