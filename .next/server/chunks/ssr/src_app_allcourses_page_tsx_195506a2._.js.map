@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///E:/Music%20nextJS/musicapp/src/app/allcourses/page.tsx"],"sourcesContent":["\"use client\";\r\nimport { CardBody, CardContainer, CardItem } from \"@/components/ui/3d-card\";\r\nimport { div } from 'motion/react-client';\r\nimport React from 'react'\r\nimport courseData from \"@/data/music_courses.json\"\r\n\r\nconst page = () => {\r\n  return (\r\n    <div className=\"min-h-screen bg-black py-12 pt-36\">\r\n        <h3></h3>\r\n      \r\n    </div>\r\n  )\r\n}\r\n\r\nexport default page"],"names":[],"mappings":";;;;AAAA;;AAMA,MAAM,OAAO;IACX,qBACE,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;;;;;;;;;;AAIT;uCAEe","debugId":null}}]
-}

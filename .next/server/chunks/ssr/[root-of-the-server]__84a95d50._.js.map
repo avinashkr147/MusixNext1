@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///E:/musicapp/src/app/page.tsx"],"sourcesContent":["import FeatureCourses from \"@/components/FeatureCourses\";\nimport { Footer } from \"@/components/Footer\";\nimport HeroSection from \"@/components/HeroSection\";\nimport Instructors from \"@/components/Instructors\";\nimport TestomonialCards from \"@/components/TestomonialCards\";\nimport ThreeDCard from \"@/components/ThreeDCard\";\nimport UpcomingWebinars from \"@/components/UpcomingWebinars\";\nimport WhyChooseUs from \"@/components/WhyChooseUs\";\nimport { main } from \"motion/react-client\";\n\nexport default function Home() {\n  return (\n    <main className=\"min-h-screen  bg-black/[0.96] antialiased\n    bg-grid-white/[0.2]\">\n    <HeroSection/>\n    <FeatureCourses/>\n    <WhyChooseUs/>\n    <TestomonialCards/>\n    <UpcomingWebinars/>\n    <Instructors />\n    <Footer/>\n    \n    </main>\n\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAUe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;;0BAEhB,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;;;;;;;AAKL","debugId":null}}]
-}

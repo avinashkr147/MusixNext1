@@ -75,7 +75,7 @@ var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
-const page = ()=>{
+const Page = ()=>{
     _s();
     const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
     const [message, setMessage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
@@ -179,8 +179,11 @@ const page = ()=>{
         columnNumber: 5
     }, ("TURBOPACK compile-time value", void 0));
 };
-_s(page, "mxdRTHxkiTeLOv2akPbesFCh75U=");
-const __TURBOPACK__default__export__ = page;
+_s(Page, "mxdRTHxkiTeLOv2akPbesFCh75U=");
+_c = Page;
+const __TURBOPACK__default__export__ = Page;
+var _c;
+__turbopack_context__.k.register(_c, "Page");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(module, globalThis.$RefreshHelpers$);
 }

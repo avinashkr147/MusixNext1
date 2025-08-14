@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///E:/Music%20nextJS/musicapp/src/app/about/user/page.tsx"],"sourcesContent":["export default function UserDetailsPage(){\r\n    return (\r\n        <h2 className=\"bg-red-400\">this is alll about user page...</h2>\r\n    )\r\n}"],"names":[],"mappings":";;;;;AAAe,SAAS;IACpB,qBACI,8OAAC;QAAG,WAAU;kBAAa;;;;;;AAEnC","debugId":null}}]
-}
