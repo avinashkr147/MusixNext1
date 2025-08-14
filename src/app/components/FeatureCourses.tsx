@@ -54,7 +54,7 @@ const FeatureCourses = () => {
       <div className="mt-12 text-center">
         <Link
           href={"/allcourses"}
-          className=" py-4.5 z-19 px-6 text-sm rounded-md border border-solid border-gray-200 text-gray-600 cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 hover:bg-gray-300 hover:text-gray-800"
+          className=" py-4.5  z-19 px-6 text-sm rounded-md border border-solid border-gray-200 text-gray-600 cursor-pointer font-semibold text-center shadow-xs transition-all duration-500 hover:bg-gray-300 hover:text-gray-800"
         >
           View All courses
         </Link>

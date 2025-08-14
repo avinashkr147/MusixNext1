@@ -64,15 +64,16 @@ function UpcomingWebinars() {
   ];
 
   return (
-    <div className="p-4 lg:p-6 w-full bg-gray-900">
+    <div className="p-2 lg:p-6 w-full bg-gray-900">
       <div className="max-w-7xl mx-auto px-2 sm:px-6">
         <div className="text-center">
           <h2 className="text-base text-teal-600 font-semibold tracking-wide uppercase">FEATURED WEBINARS</h2>
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Enhance Your Musical Journey</p>
         </div>
 
-        <div className="mt-10 " >
-          <HoverEffect  className="max-sm:w-[290px] w-full md:h-screen"
+        <div className="mt-10  " >
+      
+          <HoverEffect  
           items={featuredWebinars.map(webinar => (
             {
               title: webinar.title,
@@ -82,9 +83,10 @@ function UpcomingWebinars() {
             }
           ))}
           />
+          
         </div>
 
-        <div className="max-sm:mt-5 mt-20 text-center">
+        <div className="max-sm:mt-5 mt-20 max-lg:mb-5  text-center">
           <Link href={"/allwebinars"}
           className=" px-2 lg:px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
           >
