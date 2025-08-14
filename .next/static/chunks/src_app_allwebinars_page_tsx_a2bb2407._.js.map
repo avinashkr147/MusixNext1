@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///E:/musicapp11/src/app/allwebinars/page.tsx"],"sourcesContent":["\"use client\";\r\nimport React from 'react'\r\n\r\nconst page = () => {\r\n  return (\r\n   <div className='bg-neutral-950 w-full h-screen'>\r\n     <h1 className=' text-2xl md:text-4xl lg:text-6xl text-gray-500 text-center relative mx-auto top-[50%]'>we are working on this page</h1>\r\n   </div>\r\n  )\r\n}\r\n\r\nexport default page"],"names":[],"mappings":";;;;AAAA;;AAGA,MAAM,OAAO;IACX,qBACC,6LAAC;QAAI,WAAU;kBACb,cAAA,6LAAC;YAAG,WAAU;sBAAyF;;;;;;;;;;;AAG5G;uCAEe","debugId":null}}]
+}

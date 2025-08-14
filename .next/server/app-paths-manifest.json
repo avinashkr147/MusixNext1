@@ -1,3 +1,7 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
+  "/allcourses/page": "app/allcourses/page.js",
+  "/allwebinars/page": "app/allwebinars/page.js",
+  "/contactus/page": "app/contactus/page.js",
   "/page": "app/page.js"
 }

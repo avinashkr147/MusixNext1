@@ -15,8 +15,8 @@ export default function Home() {
     <FeatureCourses/>
     <WhyChooseUs/>
     <TestomonialCards/>
+    <Instructors/>
     <UpcomingWebinars/>
-    <Instructors />
     <Footer/>
     
     </main>

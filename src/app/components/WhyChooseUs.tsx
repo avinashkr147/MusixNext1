@@ -1,9 +1,7 @@
 "use client";
 import React from "react";
-// ExampleComponent.js
-
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
-import { Content } from "next/font/google";
+import Image from "next/image";
 
 const MusicSchoolContent = [
   {
@@ -19,15 +17,13 @@ const MusicSchoolContent = [
     title: "Online + Offline Classes",
     description: "We provide the flexibility of both physical and virtual learning. Join us at our center for in-person classes, or attend live interactive sessions online from anywhere. All classes are recorded, so you’ll never miss a lesson and can revise at your own pace." ,
     content: (
-      <div className="flex h-full w-full items-center justify-center text-white">
-        <img
-          src="https://images.pexels.com/photos/1656066/pexels-photo-1656066.jpeg"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
-        />
-      </div>
+      <Image
+        src="https://images.pexels.com/photos/1656066/pexels-photo-1656066.jpeg"
+        width={300}
+        height={300}
+        className="h-full w-full object-cover"
+        alt="linear board demo"
+      />
     ),
   },
   {
@@ -44,7 +40,7 @@ const MusicSchoolContent = [
     description: "Our in-house stage is fully equipped with lighting, sound systems, and recording tools. Students get regular opportunities to perform solo or with their bands. We also record these performances and provide professional footage for your portfolio or social media." ,
     content: (
       <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        <img
+        <Image
           src="https://images.pexels.com/photos/1751731/pexels-photo-1751731.jpeg"
           width={300}
           height={300}
@@ -63,8 +59,8 @@ const MusicSchoolContent = [
 const WhyChooseUs = () => {
   return (
     <div className="w-full py-4">
-        <div className="flex bg-none mx-auto px-1.5 py-2 justify-center">
-            <h3 className="text-3xl font-bold text-center mb-8 z-10">Why Choose Us..?</h3>
+        <div className="flex bg-black  mx-auto px-1.5 py-2 justify-center">
+            <h3 className="text-3xl font-bold text-center text-neutral-900 mb-5 z-10">Why Choose Us..?</h3>
         </div>
     <StickyScroll content={MusicSchoolContent}/>
 

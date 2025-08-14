@@ -24,16 +24,19 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>)
+
+
+ {
   return (
     <html lang="en" data-theme="dark"  >
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body 
+      suppressHydrationWarning={true}
+      className={`${geistSans.variable} ${geistMono.variable} antialiased page-fade`}>
        <div className="w-full relative flex items-center">
         <Navbar/>
-
        </div>
         {children}
-       
       </body>
     </html>
   );
