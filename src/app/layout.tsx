@@ -32,11 +32,12 @@ export default function RootLayout({
     <html lang="en" data-theme="dark"  >
       <body 
       suppressHydrationWarning={true}
-      className={`${geistSans.variable} ${geistMono.variable} antialiased page-fade`}>
-       <div className="w-full relative flex items-center">
+      className={`${geistSans.variable} ${geistMono.variable} antialiased  `}>
+       <div className="w-full relative flex items-center ">
         <Navbar/>
        </div>
         {children}
+     
       </body>
     </html>
   );
